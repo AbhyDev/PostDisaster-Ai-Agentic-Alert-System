@@ -24,7 +24,7 @@ def detect_city_with_red_cross(image_path):
     return response.text
 
 try:
-    result = detect_city_with_red_cross("image.png")
+    result = detect_city_with_red_cross("DummySatelliteImage.png")
     print("Gemini's analysis:")
     print(result)
 except Exception as e:
