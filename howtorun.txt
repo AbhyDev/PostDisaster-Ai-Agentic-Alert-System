@@ -1,0 +1,9 @@
+1st terminal:
+cd backend
+python main_api.py
+
+2nd terminal:
+
+cd frontend
+npm install
+npm run dev
