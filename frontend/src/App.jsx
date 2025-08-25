@@ -14,6 +14,7 @@ import {
 import ImageUpload from './components/ImageUpload';
 import CityGallery from './components/CityGallery';
 import AnalysisResults from './components/AnalysisResults';
+import DocumentViewer from './components/DocumentViewer';
 import { apiService, handleApiError } from './services/api';
 
 function App() {
@@ -195,7 +196,8 @@ function App() {
           </div>
         </header>
 
-
+        {/* Document Viewer Section */}
+        <DocumentViewer />
 
         {/* Error Display */}
         {error && (
