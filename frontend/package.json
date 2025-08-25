@@ -1,0 +1,32 @@
+{
+  "name": "postdisaster-frontend",
+  "version": "1.0.0",
+  "description": "PostDisaster AI System Frontend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.6.0",
+    "lucide-react": "^0.294.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.1.1",
+    "vite": "^5.0.0"
+  },
+  "keywords": [
+    "disaster-response",
+    "ai",
+    "crewai",
+    "satellite-analysis"
+  ],
+  "author": "PostDisaster AI Team",
+  "license": "MIT"
+}

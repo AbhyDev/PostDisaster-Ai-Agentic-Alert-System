@@ -1,0 +1,23 @@
+[project]
+name = "postdisaster-ai-agentic-alert-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11.9"
+dependencies = [
+    "crewai[tools]>=0.102.0",
+    "crewai-tools>=0.37.0",
+    "docx2txt>=0.9",
+    "embedchain>=0.1.125",
+    "ipykernel==6.29.5",
+    "jupyter==1.1.1",
+    "langchain==0.3.10",
+    "langflow==1.2.0",
+    "langgraph>=0.5.4",
+    "openai==1.68.2",
+    "pyautogen>=0.10.0",
+    "python-dotenv==1.0.1",
+    "speechrecognition>=3.14.3",
+    "pyaudio>=0.2.14",
+    "pyttsx3>=2.99",
+]
